@@ -37,7 +37,7 @@ git clone https://github.com/rishabhrpg/puppeteer-on-termux.git
 cd puppeteer-on-termux
 apk add yarn
 yarn install
-node index.js
+node token.js
 ```
 
 * If you see a message "screenshot saved" then puppeteer is successfully configured to run on termux
