@@ -55,7 +55,8 @@ const refreshToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjdXN0LTIyN
 
   if (accessToken) {
     fs.writeFileSync("token.txt", accessToken);
-    console.log(accessToken); // Tampilkan accessToken murni di stdout
+    //console.log(accessToken); // Tampilkan accessToken murni di stdout
+    console.log("token updated");
   }
 
   await browser.close();
