@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "Run puppeteer on termux",
   "main": "index.js",
-  "repository": "https://github.com/rishabhrpg/puppeteer-on-termux.git",
+  "repository": "https://github.com/Inpoina/stok.git",
   "author": "rishabhrpg",
   "license": "MIT",
   "dependencies": {
