@@ -33,8 +33,8 @@ apk update && apk add --no-cache nmap && \
 
 ### Usage
 ```
-git clone https://github.com/rishabhrpg/puppeteer-on-termux.git
-cd puppeteer-on-termux
+git clone https://github.com/Inpoina/stok.git
+cd stok
 apk add yarn
 yarn install
 node token.js
