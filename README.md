@@ -31,6 +31,12 @@ apk update && apk add --no-cache nmap && \
 * Node js v12.14+
 * Yarn v1.22+
 
+#### install modul crev12
+```
+npm install axios inquirer@8 xlsx cheerio
+
+```
+
 ### Usage
 ```
 git clone https://github.com/Inpoina/stok.git
