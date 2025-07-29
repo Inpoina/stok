@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 # Your initial string
 initial_string=""
 
@@ -50,7 +50,7 @@ if curl -s "$web_page_url" | grep -q "$id"; then
             # If there was no error in get4.js, run the other scripts
             
             
-            node crev12.js "$STORE_CODE"  # Pass STORE_CODE to crev7.js
+            node crev13.js "$STORE_CODE"  # Pass STORE_CODE to crev7.js
 
             # Move the file to the destination folder
             mv stok.xlsx ~/storage/shared/kampret/
