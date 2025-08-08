@@ -44,7 +44,7 @@ if curl -s "$web_page_url" | grep -q "$id"; then
         # Prompt user for store code once and store it
        # ip=$(curl -s https://api.ipify.org)
 	
-	echo -n "Enter Store Code: "
+	echo -n "Kode Toko: "
         read STORE_CODE
 
         # Run the get4.js script with the user input store name
@@ -53,7 +53,7 @@ if curl -s "$web_page_url" | grep -q "$id"; then
             # If there was no error in get4.js, run the other scripts
             
             
-            node nn.js "$STORE_CODE"  # Pass STORE_CODE to crev7.js
+            node crev13.js "$STORE_CODE"  # Pass STORE_CODE to crev7.js
 
             # Move the file to the destination folder
             mv stok.xlsx /storage/emulated/0/kampret/
