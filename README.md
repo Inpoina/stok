@@ -62,3 +62,10 @@ node token.js
 
 ### License
 MIT
+
+
+
+
+
+note :
+stok.sh simpan di home termux 
